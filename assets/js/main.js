@@ -212,7 +212,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 	function error() {
 		status.classList.add("error");
-		status.innerHTML = "Oops! There was a problem.";
+		status.innerHTML = "Oops! Il y a un problème.";
 	}
 
 	// handle the form submission event
@@ -317,7 +317,7 @@ sr.reveal('.home__img', { delay: 400 })
 sr.reveal('.home__social-icon', { interval: 200 })
 
 //SCROLL ABOUT
-sr.reveal('.about__container', {delay:200})
+sr.reveal('.about__container', { delay: 200 })
 sr.reveal('.about__img', {})
 sr.reveal('.section__title', { delay: 200 })
 sr.reveal('.about__description', { delay: 400 })

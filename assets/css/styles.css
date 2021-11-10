@@ -1054,12 +1054,19 @@ svg a {
   .portfolio__img {
     width: 210px;
   }
+
   .swiper-horizontal > .swiper-pagination-bullets {
     bottom: 143px !important;
     width: 50% !important;
     margin-left: auto !important;
     margin-right: auto !important;
     margin-left: 25% !important;
+    /* padding-bottom: 5px !important; */
+  }
+}
+@media screen and (max-width: 403px) {
+  .swiper-horizontal > .swiper-pagination-bullets {
+    bottom: 165px !important;
   }
 }
 /* For medium devices */
