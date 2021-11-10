@@ -992,6 +992,13 @@ svg a {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 425px) {
+  .home__content {
+    padding-top: unset;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
