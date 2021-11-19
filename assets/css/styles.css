@@ -762,6 +762,9 @@ svg a {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
+.portfolio__title a:hover {
+  font-size: var(--h2-font-size);
+}
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
