@@ -1048,9 +1048,9 @@ svg a {
   .project__img {
     width: 200px !important;
   }
-  .portfolio__title {
+  /* .portfolio__title {
     margin-left: var(--mb-2);
-  }
+  } */
   .portfolio__button {
     padding: 0 0.75rem 0 0.75rem;
   }
